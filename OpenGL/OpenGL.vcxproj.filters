@@ -16,12 +16,6 @@
     <Filter Include="Resource Files\Shaders">
       <UniqueIdentifier>{495df502-0253-49e2-97bd-556253d12e41}</UniqueIdentifier>
     </Filter>
-    <Filter Include="res">
-      <UniqueIdentifier>{cee692dd-8a5a-48f9-b7b5-fc509e4ed1ff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="res\shaders">
-      <UniqueIdentifier>{5f2f6e31-62ba-4f38-be11-5e45764bca30}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp">
@@ -30,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Basic.shader">
-      <Filter>res\shaders</Filter>
+      <Filter>Resource Files\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
